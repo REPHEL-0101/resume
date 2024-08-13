@@ -35,12 +35,23 @@
             var name = document.getElementById("name").value;
             var msg = document.getElementById("message").value;
             var url = "https://wa.me/919884237623?text=Hi";
-            var url2 = "https://api.whatsapp.com/send/?phone=919884237623&text=Hi I am "+name+"%0AWant to Discuss Regarding"+msg+"%0AThank You!!";
+            var url2 = "https://api.whatsapp.com/send/?phone=919884237623&text=Hi I am "+name+"%0AWant to Discuss Regarding: "+msg+"%0AThank You!!";
 
 // Open the URL in a new window or tab
 //window.open(url, "_blank");
 // Open the URL in a new window or tab
 window.open(url2, "_blank");
+        }
+        function sendmsg1(){                        
+            // var name = document.getElementById("name").value;
+            // var msg = document.getElementById("message").value;
+            var url = "https://wa.me/919884237623?text=Hello!";
+            // var url2 = "https://api.whatsapp.com/send/?phone=919884237623&text=Hi I am "+name+"%0AWant to Discuss Regarding: "+msg+"%0AThank You!!";
+
+// Open the URL in a new window or tab
+window.open(url, "_blank");
+// Open the URL in a new window or tab
+//window.open(url2, "_blank");
         }
     </script>
 </head>
@@ -572,12 +583,12 @@ window.open(url2, "_blank");
                     <h1 class="display-5 mb-0">Let's Work Together</h1>
                 </div>
                 <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                    <a class="btn btn-primary py-3 px-5" href="javascript:sendmsg1()">Say Hello</a>
                 </div>
             </div>
             <div class="row g-5">
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">My <Address></Address>:</p>
+                    <p class="mb-2">My Location:</p>
                     <h3 class="fw-bold">Chennai, Tamil Nadu, India</h3>
                     <hr class="w-100">
                     <p class="mb-2">Call me:</p>
